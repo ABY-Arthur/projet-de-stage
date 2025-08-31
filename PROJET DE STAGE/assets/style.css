@@ -1,0 +1,134 @@
+/* إعدادات عامة */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background: #f4f6f9;
+    color: #333;
+  }
+  
+  /* رأس الموقع */
+  header {
+    background: linear-gradient(90deg, #0066ff, #00bfff);
+    color: #fff;
+    padding: 20px 40px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  }
+  
+  header h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  nav {
+    margin-top: 10px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #ffeb3b;
+  }
+  
+  /* محتوى الصفحات */
+  section {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 30px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  }
+  
+  section h2 {
+    margin-bottom: 20px;
+    color: #0066ff;
+  }
+  
+  /* فورم */
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+  }
+  
+  form input, form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+    margin-bottom: 15px;
+    transition: border 0.3s ease;
+  }
+  
+  form input:focus, form textarea:focus {
+    border: 1px solid #0066ff;
+    outline: none;
+  }
+  
+  form button, input[type="submit"] {
+    background: #0066ff;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  form button:hover, input[type="submit"]:hover {
+    background: #0050cc;
+  }
+  
+  /* جدول الموظفين */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  table th, table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  table th {
+    background: #0066ff;
+    color: white;
+  }
+  
+  table tr:nth-child(even) {
+    background: #f9f9f9;
+  }
+  
+  table tr:hover {
+    background: #f1f7ff;
+  }
+  
+  /* ذيل الموقع */
+  footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+    box-shadow: 0 -2px 6px rgba(0,0,0,0.1);
+  }
+  
